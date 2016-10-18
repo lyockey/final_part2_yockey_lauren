@@ -137,3 +137,41 @@ h4 {
     border: 1px solid #71271c;
     color: #71271c
 }
+
+.colors {
+    text-align:center;
+}
+
+#colorblock1{
+    color: #ffffff;
+    background-color: #39322a;
+}
+
+#colorblock2{
+    color: #ffffff;
+    background-color: #4d3d2e;
+}
+
+#colorblock3{
+    color: #ffffff;
+    background-color: #71271c;
+}
+
+#colorblock4{
+    color: #ffffff;
+    background-color: #e8b54c;
+}
+
+#colorblock5{
+    color: #ffffff;
+    background-color: #534e2f;
+}
+
+#colorblock1,
+#colorblock2,
+#colorblock3,
+#colorblock4,
+#colorblock5 {
+    padding: 2em 0;
+    margin:0;
+}
