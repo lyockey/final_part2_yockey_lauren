@@ -18,6 +18,12 @@ html {
 }
 
 
+body {
+    background: url(../img/parchment.png) no-repeat center center;
+    background-size: cover;
+}
+
+
 /*HEADER CONTENT */
 header {
     background: url(../img/banner.png) no-repeat center center;
