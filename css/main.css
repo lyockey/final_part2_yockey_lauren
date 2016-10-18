@@ -17,6 +17,8 @@ html {
         url('../fonts/romancefatalserifstd.woff2') format('woff2');
 }
 
+
+/*HEADER CONTENT */
 header {
     background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
@@ -48,6 +50,8 @@ h1 {
     font-size:3em;
 }
 
+
+/* MAIN CONTENT */
 main {
     margin: 0 1em 1em;
 }
@@ -82,3 +86,5 @@ h4 {
 .sans {
     color: #39322a;
 }
+
+/* SIDEBAR CONTENT */
