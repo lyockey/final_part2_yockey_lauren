@@ -45,6 +45,10 @@ h1 {
     font-size:3em;
 }
 
+main {
+    margin: 0 1em 1em;
+}
+
 h2 {
     color: #39322a;
     font-size: 2em;
@@ -62,8 +66,4 @@ h4 {
 
 .serif {
     font-family: "Libre Baskerville", serif;
-}
-
-.sans {
-    font-family: "Lato", sans-serif;
 }
