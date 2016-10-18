@@ -20,6 +20,9 @@ html {
 header {
     background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
+
+    -webkit-box-shadow: 0 2px 10px 5px #CFCFCF;
+    box-shadow: 0 2px 10px 5px #CFCFCF;
 }
 
 header img {
