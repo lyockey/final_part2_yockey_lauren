@@ -32,7 +32,8 @@ header img {
 
 h1,
 h2,
-h3{
+h3,
+h4 {
     font-family: "Romance Fatal Serif Std", Fallback, serif;
     }
 
@@ -46,10 +47,17 @@ h1 {
 
 h2 {
     color: #39322a;
+    font-size: 2em;
 }
 
 h3 {
     color: #71271c;
+    font-size: 1.5em;
+}
+
+h4 {
+    color: #534e2f;
+    font-size: 2em;
 }
 
 .serif {
