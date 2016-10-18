@@ -8,6 +8,17 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: "Romance Fatal Serif Std"
+    src: url("fonts/romancefatalserif.ttf") format("truetype");
+    src: url("fonts/romancefatalserif.eot") format("eot"),
+        url("fonts/romancefatalserif.otf") format("opentype"),
+        url("fonts/romancefatalserif.woff") format("woff"),
+        url("fonts/romancefatalserif.svg") format("svg");
+    font-weight:normal;
+    font-style: normal;
+}
+
 header {
     background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
@@ -18,5 +29,11 @@ header img {
     height:auto;
     display: block;
     margin: auto;
-    padding-top:2em;
+    padding-top: 2em;
+}
+
+h1 {
+    color: #ffffff;
+    text-align:center;
+    padding-bottom: 2em;
 }
