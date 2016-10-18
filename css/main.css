@@ -78,7 +78,9 @@ h3 {
 }
 
 .description,
-.sans {
+.sans,
+.normal,
+.hover {
     font-family: "Lato", sans-serif;
 }
 
@@ -111,4 +113,27 @@ h4 {
 #diagon {
     width: 70%;
     height: auto;
+}
+
+#buttons {
+    text-align: center;
+    margin: 3em 0 1em;
+}
+
+.normal,
+.hover {
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #ffffff;
+    background-color: #71271c;
+    padding: 0.6em 0.8em;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.normal:hover,
+.hover:hover {
+    background-color: transparent;
+    border: 1px solid #71271c;
+    color: #71271c
 }
