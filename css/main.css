@@ -100,3 +100,15 @@ h4 {
     text-align: center;
     padding: 1em;
 }
+
+.sampleimg {
+    text-align:center;
+    width: 100%;
+}
+
+#sign,
+#diners,
+#diagon {
+    width: 70%;
+    height: auto;
+}
