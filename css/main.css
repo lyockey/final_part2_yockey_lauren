@@ -12,3 +12,11 @@ header {
     background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
 }
+
+header img {
+    width: 45%;
+    height:auto;
+    display: block;
+    margin: auto;
+    padding-top:2em;
+}
