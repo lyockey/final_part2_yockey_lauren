@@ -90,6 +90,16 @@ h3 {
     color: #39322a;
 }
 
+.textlinks {
+    text-decoration: none;
+    color: #71271c;
+}
+
+.textlinks:hover {
+    text-decoration: underline;
+    color: #71271c;
+}
+
 /* SIDEBAR CONTENT */
 #adjectives {
     padding: 2em;
