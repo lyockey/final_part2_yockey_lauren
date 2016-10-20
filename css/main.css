@@ -10,11 +10,8 @@ html {
 
 @font-face {
     font-family: 'Romance Fatal Serif Std';
-    src:url('../fonts/romancefatalserifstd.eot') format('eot');
-    src:url('../fonts/romancefatalserifstd.ttf') format('truetype'),
-        url('../fonts/romancefatalserifstd.otf') format('opentype'),
-        url('../fonts/romancefatalserifstd.woff') format('woff'),
-        url('../fonts/romancefatalserifstd.woff2') format('woff2');
+    src: url('../fonts/romancefatalserifstd.eot') format('eot');
+    src: url('../fonts/romancefatalserifstd.ttf') format('truetype'), url('../fonts/romancefatalserifstd.otf') format('opentype'), url('../fonts/romancefatalserifstd.woff') format('woff'), url('../fonts/romancefatalserifstd.woff2') format('woff2');
 }
 
 
@@ -24,18 +21,18 @@ body {
 }
 
 
-/*HEADER CONTENT */
+/* HEADER CONTENT */
 header {
     background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
 
-    -webkit-box-shadow: 0 2px 10px 5px #CFCFCF;
-    box-shadow: 0 2px 10px 5px #CFCFCF;
+    -webkit-box-shadow: 0 2px 10px 5px #cfcfcf;
+    box-shadow: 0 2px 10px 5px #cfcfcf;
 }
 
 header img {
     width: 50%;
-    height:auto;
+    height: auto;
     display: block;
     margin: auto;
     padding-top: 30%;
@@ -46,14 +43,14 @@ h2,
 h3,
 h4 {
     font-family: "Romance Fatal Serif Std", Fallback, serif;
-    }
+}
 
 h1 {
     color: #ffffff;
-    text-align:center;
+    text-align: center;
     padding-bottom: 2em;
     font-family: 'Romance Fatal Serif Std', Fallback, serif;
-    font-size:3em;
+    font-size: 3em;
 }
 
 
@@ -114,7 +111,7 @@ h4 {
 }
 
 .sampleimg {
-    text-align:center;
+    text-align: center;
     width: 100%;
 }
 
@@ -133,7 +130,7 @@ h4 {
 .normal,
 .hover {
     text-transform: uppercase;
-    text-decoration:none;
+    text-decoration: none;
     color: #ffffff;
     background-color: #71271c;
     padding: 0.6em 0.8em;
@@ -145,34 +142,34 @@ h4 {
 .hover:hover {
     background-color: transparent;
     border: 1px solid #71271c;
-    color: #71271c
+    color: #71271c;
 }
 
 .colors {
-    text-align:center;
+    text-align: center;
 }
 
-#colorblock1{
+#colorblock1 {
     color: #ffffff;
     background-color: #39322a;
 }
 
-#colorblock2{
+#colorblock2 {
     color: #ffffff;
     background-color: #4d3d2e;
 }
 
-#colorblock3{
+#colorblock3 {
     color: #ffffff;
     background-color: #71271c;
 }
 
-#colorblock4{
+#colorblock4 {
     color: #ffffff;
     background-color: #e8b54c;
 }
 
-#colorblock5{
+#colorblock5 {
     color: #ffffff;
     background-color: #534e2f;
 }
@@ -183,5 +180,5 @@ h4 {
 #colorblock4,
 #colorblock5 {
     padding: 2em 0;
-    margin:0;
+    margin: 0;
 }
