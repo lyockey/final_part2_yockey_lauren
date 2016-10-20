@@ -22,20 +22,27 @@ body {
 
 
 /* HEADER CONTENT */
-header {
-    background: url(../img/banner.png) no-repeat center center;
-    background-size: cover;
-
-    -webkit-box-shadow: 0 2px 10px 5px #cfcfcf;
-    box-shadow: 0 2px 10px 5px #cfcfcf;
-}
-
-header img {
+#logo {
     width: 35%;
     height: auto;
+    padding-top: 2em;
     display: block;
     margin: auto;
-    padding-top: 30%;
+}
+
+h1 {
+    color: #39322a;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Romance Fatal Serif Std', Fallback, serif;
+    font-size: 2em;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0 2px 10px 5px #cfcfcf;
+    box-shadow: 0 2px 10px 5px #cfcfcf;
 }
 
 h1,
@@ -43,14 +50,6 @@ h2,
 h3,
 h4 {
     font-family: "Romance Fatal Serif Std", Fallback, serif;
-}
-
-h1 {
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 2em;
-    font-family: 'Romance Fatal Serif Std', Fallback, serif;
-    font-size: 3em;
 }
 
 
