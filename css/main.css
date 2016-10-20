@@ -20,6 +20,10 @@ body {
     background-size: cover;
 }
 
+.sitecontainer {
+    max-width: 1200px;
+    margin: auto;
+}
 
 /* HEADER CONTENT */
 #logo {
