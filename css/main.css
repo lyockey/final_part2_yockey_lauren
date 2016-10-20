@@ -70,7 +70,7 @@ h4 {
 
 
 /* MAIN CONTENT */
-main {
+#copy {
     padding: 0 2em 2em;
 }
 
@@ -108,7 +108,41 @@ h3 {
     color: #71271c;
 }
 
-/* SIDEBAR CONTENT */
+#buttons {
+    text-align: center;
+}
+
+.normal,
+.hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #71271c;
+    padding: 0.6em 0.8em;
+    border: 1px solid #71271c;
+    display: block;
+    width: 100%;
+}
+
+.normal {
+    margin-bottom: 0.1em;
+}
+
+.normal:hover,
+.hover:hover {
+    background-color: transparent;
+    color: #71271c;
+}
+
+@media (min-width: 550px) {
+    .normal,
+    .hover {
+        -webkit-border-radius: 4px 4px 4px 4px;
+        border-radius: 4px 4px 4px 4px;
+        display: inline;
+    }
+}
+
 #adjectives {
     padding: 2em;
 }
@@ -121,6 +155,8 @@ h4 {
     padding: 1em;
 }
 
+
+/* SIDEBAR */
 .sampleimg {
     text-align: center;
     width: 100%;
@@ -131,29 +167,6 @@ h4 {
 #diagon {
     width: 70%;
     height: auto;
-}
-
-#buttons {
-    text-align: center;
-    margin: 3em 0 1em;
-}
-
-.normal,
-.hover {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #71271c;
-    padding: 0.6em 0.8em;
-    -webkit-border-radius: 4px 4px 4px 4px;
-    border-radius: 4px 4px 4px 4px;
-    border: 1px solid #71271c;
-}
-
-.normal:hover,
-.hover:hover {
-    background-color: transparent;
-    color: #71271c;
 }
 
 .colors {
