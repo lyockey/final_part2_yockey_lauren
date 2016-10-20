@@ -25,6 +25,7 @@ body {
     margin: auto;
 }
 
+
 /* HEADER CONTENT */
 #logo {
     width: 35%;
@@ -161,14 +162,27 @@ h4 {
 /* SIDEBAR */
 .sampleimg {
     text-align: center;
-    width: 100%;
 }
 
 #sign,
 #diners,
 #diagon {
-    width: 70%;
+    width: 100%;
     height: auto;
+}
+
+@media (min-width: 600px) {
+    .sampleimg {
+        margin-bottom: 2em;
+    }
+
+    #sign,
+    #diners,
+    #diagon {
+        display: inline-block;
+        width: 40%;
+        height: auto;
+    }
 }
 
 .colors {
