@@ -136,12 +136,12 @@ h4 {
     padding: 0.6em 0.8em;
     -webkit-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
+    border: 1px solid #71271c;
 }
 
 .normal:hover,
 .hover:hover {
     background-color: transparent;
-    border: 1px solid #71271c;
     color: #71271c;
 }
 
