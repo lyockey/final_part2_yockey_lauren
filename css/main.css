@@ -118,14 +118,14 @@ h3 {
     text-decoration: none;
     color: #ffffff;
     background-color: #71271c;
-    padding: 0.6em 0.8em;
+    padding: 0.6em 2em;
     border: 1px solid #71271c;
     display: block;
     width: 100%;
 }
 
 .normal {
-    margin-bottom: 0.1em;
+    margin: 0 3em 1em 0;
 }
 
 .normal:hover,
@@ -144,14 +144,16 @@ h3 {
 }
 
 #adjectives {
-    padding: 2em;
+    padding: 3em 3em;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
 
 h4 {
     color: #534e2f;
-    font-size: 2em;
+    font-size: 2.5em;
     display: inline;
-    text-align: center;
     padding: 1em;
 }
 
