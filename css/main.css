@@ -63,19 +63,22 @@ body {
     margin: auto;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Romance Fatal Serif Std", Fallback, serif;
+}
+
+h1,
+h2 {
     color: #39322a;
-    text-align: center;
-    padding-bottom: 0.5em;
-    font-family: 'Romance Fatal Serif Std', Fallback, serif;
     font-size: 2em;
 }
 
-#banner {
-    width: 100%;
-    height: auto;
-    -webkit-box-shadow: 0 2px 10px 5px #cfcfcf;
-    box-shadow: 0 2px 10px 5px #cfcfcf;
+h1 {
+    text-align: center;
+    padding-bottom: 0.5em;
 }
 
 @media (min-width: 600px) {
@@ -90,11 +93,11 @@ h1 {
     }
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: "Romance Fatal Serif Std", Fallback, serif;
+#banner {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0 2px 10px 5px #cfcfcf;
+    box-shadow: 0 2px 10px 5px #cfcfcf;
 }
 
 
@@ -104,8 +107,6 @@ h4 {
 }
 
 h2 {
-    color: #39322a;
-    font-size: 2em;
     margin-bottom: -0.4em;
 }
 
@@ -114,11 +115,9 @@ h3 {
     font-size: 1.5em;
 }
 
-
 .description,
 .sans,
-.normal,
-.hover {
+#buttons {
     font-family: "Lato", sans-serif;
 }
 
@@ -134,15 +133,16 @@ h3 {
 
 .textlinks:hover {
     text-decoration: underline;
-    color: #71271c;
 }
 
+
+/* BUTTONS */
 #buttons {
     text-align: center;
 }
 
-.normal,
-.hover {
+.button-one,
+.button-two {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -153,21 +153,21 @@ h3 {
     width: 100%;
 }
 
-.normal {
+.button-one {
     margin: 0 3em 0.3em 0;
 }
 
-.normal:hover,
-.hover:hover {
+.button-one:hover,
+.button-two:hover {
     background-color: transparent;
     color: #71271c;
 }
 
 @media (min-width: 550px) {
-    .normal,
-    .hover {
-        -webkit-border-radius: 4px 4px 4px 4px;
-        border-radius: 4px 4px 4px 4px;
+    .button-one,
+    .button-two {
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
         display: inline;
     }
 
@@ -176,6 +176,8 @@ h3 {
     }
 }
 
+
+/* ADJECTIVES */
 #adjectives {
     padding: 3em 3em;
     width: 90%;
@@ -231,6 +233,8 @@ h4 {
     }
 }
 
+
+/* COLORS */
 .colors {
     text-align: center;
 }
@@ -282,6 +286,6 @@ h4 {
     }
 
     .colors {
-        max-width: 1200px;
+        margin: auto;
     }
 }
