@@ -16,8 +16,9 @@ html {
 
 
 body {
-    background: url(../img/parchment.png) no-repeat center center;
-    background-size: cover;
+    background: radial-gradient(#f7f2e1, #efeedc);
+    background: -webkit-radial-gradient(#f7f2e1, #efeedc);
+    background: -moz-radial-gradient(#f7f2e1, #efeedc);
 }
 
 .sitecontainer {
