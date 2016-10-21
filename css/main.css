@@ -64,14 +64,14 @@ body {
 }
 
 h1,
-h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: "Romance Fatal Serif Std", Fallback, serif;
 }
 
 h1,
-h2 {
+h3 {
     color: #39322a;
     font-size: 2em;
 }
@@ -79,6 +79,18 @@ h2 {
 h1 {
     text-align: center;
     padding-bottom: 0.5em;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
 @media (min-width: 600px) {
@@ -106,11 +118,11 @@ h1 {
     padding: 0 2em 2em;
 }
 
-h2 {
+h3 {
     margin-bottom: -0.4em;
 }
 
-h3 {
+h4 {
     color: #71271c;
     font-size: 1.5em;
 }
@@ -191,7 +203,7 @@ h3 {
     }
 }
 
-h4 {
+h5 {
     color: #534e2f;
     font-size: 2.5em;
     display: inline;
