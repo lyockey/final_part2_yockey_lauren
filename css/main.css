@@ -183,6 +183,12 @@ h3 {
     text-align: center;
 }
 
+@media (min-width: 1200px) {
+    #adjectives {
+        width: 100%;
+    }
+}
+
 h4 {
     color: #534e2f;
     font-size: 2.5em;
@@ -272,7 +278,7 @@ h4 {
     #colorblock5 {
         padding: 2em;
         margin: 1em;
-        width: calc(50% / 5);
+        width: calc(80% / 5);
     }
 
     .colors {
