@@ -200,14 +200,14 @@ h4 {
 
 @media (min-width: 600px) {
     .sampleimg {
-        margin-bottom: 2em;
+        margin: 2em 0;
     }
 
     #sign,
     #diners,
     #diagon {
         display: inline-block;
-        width: 40%;
+        width: 80%;
         height: auto;
     }
 }
