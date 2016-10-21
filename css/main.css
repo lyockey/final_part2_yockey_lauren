@@ -170,6 +170,10 @@ h3 {
         border-radius: 4px 4px 4px 4px;
         display: inline;
     }
+
+    #buttons {
+        margin: 2em 1em;
+    }
 }
 
 #adjectives {
