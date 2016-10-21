@@ -147,14 +147,14 @@ h3 {
     text-decoration: none;
     color: #ffffff;
     background-color: #71271c;
-    padding: 0.6em 2em;
+    padding: 1.5em;
     border: 1px solid #71271c;
     display: block;
     width: 100%;
 }
 
 .normal {
-    margin: 0 3em 1em 0;
+    margin: 0 3em 0.3em 0;
 }
 
 .normal:hover,
