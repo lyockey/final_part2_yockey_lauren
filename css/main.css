@@ -9,9 +9,9 @@ html {
 }
 
 @font-face {
-    font-family: 'Romance Fatal Serif Std';
-    src: url('../fonts/romancefatalserifstd.eot') format('eot');
-    src: url('../fonts/romancefatalserifstd.ttf') format('truetype'), url('../fonts/romancefatalserifstd.otf') format('opentype'), url('../fonts/romancefatalserifstd.woff') format('woff'), url('../fonts/romancefatalserifstd.woff2') format('woff2');
+    font-family: "Romance Fatal Serif Std";
+    src: url("../fonts/romancefatalserifstd.eot") format("eot");
+    src: url("../fonts/romancefatalserifstd.ttf") format("truetype"), url("../fonts/romancefatalserifstd.otf") format("opentype"), url("../fonts/romancefatalserifstd.woff") format("woff"), url("../fonts/romancefatalserifstd.woff2") format("woff2");
 }
 
 
