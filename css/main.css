@@ -25,16 +25,31 @@ body {
     margin: auto;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1200px) {
     main {
         float: right;
-        margin-left: 1.5em;
+        margin-left: 1em;
         width: calc(100% / 3 * 2);
     }
 
     .sidebar {
         float: left;
         width: calc(100% / 3 - 1.5em);
+    }
+
+    .colors {
+        margin-left: 2em;
+    }
+
+    #colorblock1,
+    #colorblock2,
+    #colorblock3,
+    #colorblock4,
+    #colorblock5 {
+        display: inline-block;
+        padding: 0.2em;
+        border-radius: 10px;
+        width: 33%;
     }
 }
 
